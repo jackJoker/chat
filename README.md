@@ -1,7 +1,4 @@
-# Monolog - Logging for PHP 
-
-[![Total Downloads](https://img.shields.io/packagist/dt/monolog/monolog.svg)](https://packagist.org/packages/gym/chat_info)
-[![Latest Stable Version](https://img.shields.io/packagist/v/monolog/monolog.svg)](https://packagist.org/packages/gym/chat_info)
+# Chat for PHP
 
 
 ## Installation
@@ -17,8 +14,7 @@ $ composer require gym/chat_info
 ```php
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
+use Chat;
 
 // create a log channel
 $chat = new Chat('your-openai-api-key','gpt-3.5-turbo');

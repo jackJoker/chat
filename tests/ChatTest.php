@@ -1,8 +1,7 @@
 <?php
 
-namespace Gym\Chat_info\Tests;
+namespace Chat;
 
-use Chat\Chat;
 use PHPUnit\Framework\TestCase;
 
 class ChatTest extends TestCase
