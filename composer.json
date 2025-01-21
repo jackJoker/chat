@@ -1,0 +1,25 @@
+{
+  "name": "gym/chat_info",
+  "version": "1.0.0",
+  "description": "对接AI大模型聊天数据信息",
+  "type": "library",
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gym\\Chat_info\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gym\\Chat_info\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  }
+}
